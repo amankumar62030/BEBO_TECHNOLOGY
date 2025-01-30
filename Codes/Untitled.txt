@@ -1,0 +1,405 @@
+# WAP to find Simple Interest.
+# p = int(input("Enter the principle amount: "))
+# r = int(input("Enter the Rate:"))
+# t = int(input("Enter the time: "))
+
+# si = (p*r*t)/100
+# print(si)
+
+
+# WAP to print Area of Circle.
+# r = int(input("Enter the radius:"))
+# pi = 3.14
+
+# area = pi*r*r
+# print(area)
+
+# WAP to print swapping of two numbers.
+# num1 = int(input("Enter the first number:"))
+# num2 = int(input("Enter the second number: "))
+# print("before swapping:")
+# print(num1, num2)
+# swap = num1, num2 = num2, num1
+# print("After swapping:")
+# print(swap)
+
+# WAP to add two numbers.(user input)
+# num1 = int(input("Enter the first number: "))
+# num2 = int(input("Enter the second number: "))
+# sum = num1 + num2
+# print(sum)
+
+
+# WAP to find remainder of two numbers(user input)
+# a = int(input("Enter the first number: "))
+# b = int(input("Enter the second number: "))
+
+# rem = (a%b)
+# print(rem)
+
+# WAP to check for prime
+# n = int(input("Enter the number:"))
+# is_prime = True
+# for i in range(2,n):
+#     if(n%i==0):
+#         is_prime = False
+#         break
+# if is_prime:
+#     print("Prime")
+# else:
+#     print("not prime")
+
+# WAP to print even number from 1 to 100
+# for i in range(1,101):
+#     if(i%2==0):
+#         print(i)
+
+
+#  WAP to find factorial of a number.
+# n = int(input("Enter the number :"))
+# fact = 1
+# for i in range(1,n+1):
+#     fact*=i
+# print(fact)
+
+# WAP to print sum of n natural numbers.
+# n = int(input("Enter the number: "))
+# sum = 0
+# for i in range(1,n+1):
+#     sum+=i
+# print(sum)
+
+# WAP to print table.
+# n = int(input("Enter the table: "))
+# for i in range(1,11):
+#     print(f"{n}X{i}=",n*i)
+
+
+# WAP to print number from 1 to 100.
+# for i in range(1,101):
+#     print(i)
+
+# WAP to reverse a digit.
+# n = int(input("Enter the number : "))
+# rev_num = 0
+# while(n!=0):
+#     rem = n%10
+#     rev_num=rev_num*10+rem
+#     n//=10
+# print(rev_num)
+
+
+# WAP to count the number of digit.
+# n = int(input("Enter the number: "))
+# count = 0
+# while(n!=0):
+#     rem = n%10
+#     count+=1
+#     n//=10
+# print(count)
+
+# WAP to display python reversed keyword.
+# import keyword
+# print(keyword.kwlist)
+
+#  WAP to check, if the person is eligible to vote or not.
+# age = int(input("Enter the age: "))
+# if age >= 18:
+#     print("Eligible")
+# else:
+#     print("Not eligible")
+
+
+# WAP to print largest of three numbers.
+# num1 = int(input("Enter the first number: "))
+# num2 = int(input("Enter the second number: "))
+# num3 = int(input("Enter the third number:"))
+
+# if num1>num2 and num1>num3:
+#     print("largest number is:",num1)
+# elif num2>num1 and num2>num3:
+#     print("largest number is:",num2)
+# else:
+#     print("largest number is:",num3)
+
+
+# WAP to check that takes a number as input and checks if it falls within a specified range. For example, check if the number is between 10 and 50 (inclusive).
+# n = int(input("Enter any number: "))
+# if n in range(10,51):
+#     print("It falls within range")
+# else:
+#     print("It does not falls within range")
+    
+    
+# WAP to check two words are equal or not.
+# word1 = input("Enter the word:")
+# word2 = input("Enter the word:")
+# if(word1==word2):
+#     print("Equal")
+# else:
+#     print("not equal")
+
+
+# WAP to make simple calculator.
+# print("Simple Calculator")
+# print("1.Addition")
+# print("2.Subtraction")
+# print("3.Multiplication")
+# print("4.Division")
+
+# result = int(input("Choose (1,2,3,4) the option you want to perform: "))
+# num1 = int(input("Enter the first number: "))
+# num2 = int(input("Enter the second number:"))
+
+# if  result == 1:
+#     print("The sum is:",num1+num2)
+# elif result ==2:
+#     print("The subtraction of two number is: ",num1-num2)
+# elif result ==3:
+#     print("the multiplication is: ",num1*num2)
+# elif result==4:
+#     if num2 != 0:
+#         print("The division is:", num1 / num2)
+#     else:
+#         print("Error: Division by zero is not allowed.")
+# else:
+#     print("Choose correct option....")
+    
+# WAP to convert Celsius to Fahrenheit.
+# c = int(input("Enter celsius: "))
+
+# f = c*(9/5)+32
+
+# print(f)
+
+
+#  WAP to find GCD of numbers.
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+
+# if num2 > num1:
+#     num1,num2=num2,num1
+
+# while num2!=0:
+#     temp = num1%num2
+#     num1=num2
+#     num2=temp
+# print(num1)
+
+
+# WAP to check for Anagram.
+# s1 = input("Enter any String: ")
+# s2 = input("Enter any String: ")
+
+# if len(s1)!=len(s2):
+#     print("Not Anagram")
+# else:
+#     a = sorted(s1)
+#     b = sorted(s2)
+#     if(a == b):
+#         print("Anagram")
+#     else:
+#         print("Not Anagram..")
+
+
+# WAP to check for palindrome.
+# s1 = input("Enter any String: ")
+# rev_str = ""
+# for i in s1:
+#     rev_str = i+rev_str
+# if s1 == rev_str:
+#     print("Palindrome")
+# else:
+#     print("Not Palindrome..")
+
+
+# WAP to count vowels in  a string
+
+# s1 = input("Enter any String: ")
+# count = 0
+# for i in s1:
+#     if i in "aeiou":
+#         count+=1
+# print(count)
+
+# WAP to count words in string.
+# s1 = input("Enter any String: ")
+# print(len(s1.split()))
+
+
+# WAP to remove spaces from a string.
+# s1 = input("Enter any String: ")
+# result = s1.replace(" ","")
+# print(result)
+
+
+# WAP to convert string to uppercase.
+# s1 = input("Enter any String: ")
+# print(s1.upper())
+
+# WAP to convert string to lowercase.
+# s1 = input("Enter any String: ")
+# print(s1.lower())
+
+# WAP to reverse string.
+# s1 = input("Enter any String: ")
+# rev_str = ""
+# for i in s1:
+#     rev_str=i+rev_str
+# print(rev_str)
+
+#2nd method
+# print(s1[::-1])
+
+
+
+# WAP to print frequency of String.
+# s1 = input("Enter any String: ")
+# d = {}
+# for i in s1:
+#     if i in d:
+#         d[i]+=1
+#     else:
+#         d[i] = 1
+# print(d)
+
+
+# WAP to print sum of even numbers.
+# sum = 0
+# n = int(input("Enter the number :"))
+# for i in range(1,n+1):
+#     if(i%2==0):
+#         sum+=i
+# print(sum)
+
+
+# WAP to print sum of odd numbers.
+# n = int(input("Enter any number: "))
+# sum = 0
+# for i in range(1,n+1):
+#     if i%2!=0:
+#         sum+=i
+# print(sum)
+
+
+# WAP to print occurrences of each words.
+# s = input("Enter the String: ")
+# s1 = s.split()
+# d ={}
+# for i in s1:
+#     if i in d:
+#         d[i]+=1
+#     else:
+#         d[i] = 1
+# print(d)
+
+
+# WAP to print first non-repeating characters.
+
+s = input("Enter the string: ")
+d = {}
+
+for i in s:
+    if i in d:
+        d[i]+=1
+    else:
+        d[i]=1
+        
+for i in s:
+    if d[i]==1:
+        print(i)
+        break
+else:
+    print("No non-repeating character found.")
+
+
+#WAP to print longest substring without repeating character.
+s1 = input("Enter any String: ")
+st = 0
+m = 0
+d = {}
+
+for i in range(len(s1)):
+    if s1[i] in d and d[s1[i]]>=st:
+        st = d[s1[i]]+1
+    d[s1[i]]=i
+    m = max(m,i-st+1)
+print(m)
+
+
+# WAP to remove duplicates from the string.
+
+# n = input("Enter any String: ")
+# l =[]
+# for i in n:
+#     if i not in l:
+#         l.append(i)
+# st = ''.join(l)
+# print(st)
+        
+        
+# n = list(input("Enter any String: "))
+# i = 0
+# while(i<len(n)):
+#     j=i+1
+#     while(j<len(n)):
+#         if n[i] == n[j]:
+#             n.pop(j)
+#         else:
+#             j+=1
+#     i+=1
+# st = ''.join(n)
+# print(st)
+
+
+# WAP to reverse the words of each characters.
+n = input("Enter any String: ")
+words = n.split()
+rev_wrd = [word[::-1] for word in words]
+rev = " ".join(rev_wrd)
+print(rev)
+
+
+# WAP to replace words in String.
+s1 = "banana"
+result =""
+for i in s1:
+    if i == "a":
+        result+="x"
+    else:
+        result+=i
+print(result)
+       
+
+#WAP to print sum of digits until single digits. 
+def sum_of_digit(n):
+    while n>=10:
+        sum = 0
+        while n>0:
+            rem = n%10
+            sum +=rem
+            n//=10
+        n = sum
+    return n
+
+n = int(input("Enter the number:"))
+result = sum_of_digit(n)
+print(result)
+
+
+WAP to print longest length of string.
+n = input("Enter the string: ")
+
+longest_word = n.split()
+length = 0
+
+for word in longest_word:
+    if len(word) > length:
+        length = len(word)
+print("longest length of word is",length)
+
+
+41. WAP to print String after compression.
+
+22. WAP to find prime factorization of a number.
+

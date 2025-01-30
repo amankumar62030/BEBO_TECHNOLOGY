@@ -1,0 +1,1 @@
+# Define a base class Appliance with a method turn_on). Create subclasses Washing Machine, Refrigerator, and Microwave that override the tum_on() method. Write a program to demonstrate calling the method for different objects using a loop.

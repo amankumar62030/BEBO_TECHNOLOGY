@@ -1,0 +1,1 @@
+# Write a program with a base class Shape and subclasses Square, Triangle, and Circle.Implement a method draw in each subclass and demonstrate polymorphism using a loop to call draw on a list of shapes.

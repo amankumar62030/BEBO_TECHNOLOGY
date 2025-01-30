@@ -1,0 +1,1 @@
+# 9.	Write a program to merge the contents of two files, file1.txt and file2.txt, into a third file merged.txt. Handle all possible exceptions during file operations.

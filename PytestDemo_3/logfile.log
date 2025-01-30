@@ -1,0 +1,5 @@
+2025-01-14 11:37:12,446 - test_logging - DEBUG - A debug program
+2025-01-14 11:37:12,446 - test_logging - INFO - Information statement
+2025-01-14 11:37:12,446 - test_logging - WARNING - warning
+2025-01-14 11:37:12,446 - test_logging - ERROR - error
+2025-01-14 11:37:12,446 - test_logging - CRITICAL - critical
