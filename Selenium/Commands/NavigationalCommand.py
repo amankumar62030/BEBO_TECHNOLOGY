@@ -7,9 +7,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-serv_obj = Service("D:\BEBO TECHNOLOGY\drivers\chromedriver-win64\chromedriver-win64\chromedriver.exe")
-driver = webdriver.Chrome(service=serv_obj)
-
+# serv_obj = Service("D:\BEBO TECHNOLOGY\drivers\chromedriver-win64\chromedriver-win64\chromedriver.exe")
+# driver = webdriver.Chrome(service=serv_obj)
+driver = webdriver.Chrome()
 driver.get("https://www.snapdeal.com/")
 time.sleep(2)
 driver.get("https://www.amazon.com/")
