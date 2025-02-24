@@ -1,4 +1,4 @@
-# 1.	Create a polymorphic function calculate_area() that calculates the area of a Circle, Rectangle,
+# 1.Create a polymorphic function calculate_area() that calculates the area of a Circle, Rectangle,
 # and Triangle based on the shape object passed to it.
 
 import math

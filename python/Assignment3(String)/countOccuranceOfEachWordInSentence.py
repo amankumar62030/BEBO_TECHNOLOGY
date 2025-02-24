@@ -1,5 +1,5 @@
 # Write a Python program to count the occurrences of each word in a given sentence.
-
+# occurance of each word------------------------------------------
 s1 = input("Enter the string:")
 f = {}
 words = s1.split()

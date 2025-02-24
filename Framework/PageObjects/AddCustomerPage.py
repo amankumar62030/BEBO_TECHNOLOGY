@@ -55,6 +55,6 @@ class AddCustomer:
         time.sleep(3)
         self.driver.execute_script("argument[0].click();",self.listitem)
 
-    def
+
 
 

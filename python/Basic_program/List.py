@@ -1,11 +1,11 @@
-x = [1,2,3,4]
-y = x
-z = [1,2,3,4]
-
-print(x is y) #true
-print(y is z) #false
-print(x is not y) #false
-print(x is not z) #true
+# x = [1,2,3,4]
+# y = x
+# z = [1,2,3,4]
+#
+# print(x is y) #true
+# print(y is z) #false
+# print(x is not y) #false
+# print(x is not z) #true
 
 
 # difference between is and ==

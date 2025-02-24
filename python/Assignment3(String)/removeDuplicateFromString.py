@@ -1,14 +1,14 @@
-# def remove_dup(n):
-#     list = []
-#
-#     for i in n:
-#         if i not in list:
-#             list.append(i)
-#     st = "".join(list)
-#     return st
-#
-# n = input("Enter any String:")
-# print(remove_dup(n))
+def remove_dup(n):
+    list = []
+
+    for i in n:
+        if i not in list:
+            list.append(i)
+    st = "".join(list)
+    return st
+
+n = input("Enter any String:")
+print(remove_dup(n))
 
 
 
